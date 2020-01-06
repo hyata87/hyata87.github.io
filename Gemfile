@@ -32,3 +32,13 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
+group :jekyll_plugins do
+    gem "jekyll-paginate"
+    gem "jekyll-sitemap"
+    gem "jekyll-gist"
+    gem "jemoji"
+    gem "jekyll-include-cache"
+    gem "jekyll-algolia"
+end
+
+gem "faraday", "~> 0.17.3"
